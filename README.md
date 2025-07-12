@@ -15,3 +15,4 @@ Este sitio responsive presenta un catálogo interactivo, recursos educativos y u
 
 - HTML
 - CSS
+- Metodología BEM 
