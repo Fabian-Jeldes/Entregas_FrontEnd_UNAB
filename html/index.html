@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEM</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body>
+    <nav class="header__nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">Inicio</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Galería</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+
+        <div class="header__logo"></div>
+        <section class="header__logo-image"></section>
+        <img src="https://1000marcas.net/wp-content/uploads/2019/11/Batman-Logo.png" alt="Logo de la empresa"
+            height="200" width="400">
+    </header>
+
+    <main class="main-content">
+        <article class="article">
+            <h1 class="article__title"></h1>
+            <p class="article__text">M3AE2 - ABP2 Metodología BEM</p>
+            <section class="article__section">  
+                <h2 class="article__subtitle">¿Qué es BEM?</h2>
+                <center><p class="article__text-sub">BEM (Bloque, Elemento, Modificador) es una metodología de desarrollo
+                    frontend que ayuda a crear código HTML y CSS más organizado y mantenible. Se basa en la idea de
+                    dividir la interfaz en bloques independientes, elementos dentro de esos bloques y modificadores que
+                    alteran el estilo o comportamiento de los bloques o elementos.</p></center>
+
+                 <center><p class="article__text-sub center">La metodología BEM (Bloque, Elemento, Modificador) es una convención para
+                nombrar clases en HTML y CSS que facilita la organización y el mantenimiento del código. Usar BEM ayuda
+                a crear estructuras más claras, evita conflictos de estilos y mejora la escalabilidad de los proyectos,
+                permitiendo que varios desarrolladores trabajen de manera eficiente y consistente.</p></center>
+                </section>
+
+        </article>
+        <section class="section_imagen">
+            <article class="sub-article">
+                <img src="../img/img_batman_bem.png" alt="Ejemplo" style="border-radius: 20px;">
+            </article>
+
+        </section>
+        <section class="contact-form">
+            <h2 class="contact-form__title">Contáctanos</h2>
+            <form class="contact-form__form">
+                <input class="contact-form__input" type="text" placeholder="Nombre" />
+                <input class="contact-form__input" type="email" placeholder="Correo" />
+                <button class="contact-form__button">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contact">
+            <p class="footer__info">Contacto: contacto@empresa.cl | Tel: +569 1234 5678</p>
+        </div>
+        <div class="footer__socials-rrss">
+            <a class="footer__social-link" href="#" aria-label="Facebook">
+                <img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook" class="footer__icon" />
+            </a>
+            <a class="footer__social-link" href="#" aria-label="Instagram">
+                <img src="https://cdn-icons-png.flaticon.com/24/733/733558.png" alt="Instagram" class="footer__icon" />
+            </a>
+            <a class="footer__social-link" href="#" aria-label="Twitter">
+                <img src="https://cdn-icons-png.flaticon.com/24/733/733579.png" alt="Twitter" class="footer__icon" />
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
