@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-link {
+  font-family: "Inter", Arial, sans-serif;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+.btn {
+  padding: 0.75em 2em;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #3b82f6, #ffffff);
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.08);
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #ffffff, #3b82f6);
+  transform: translateY(-3px) scale(1.05);
+}
+
+.card {
+  background: #fff;
+  overflow: hidden;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  box-shadow: 0 8px 24px rgba(59, 130, 246, 0.13);
+}
+
+.card-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.card-body {
+  font-size: 1rem;
+  line-height: 1.5;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.card-description {
+  width: 700px;
+  height: 80px;
+  text-align: center;
+}
+
+.body-images {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  padding: 16px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 400px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.nav__link {
+  padding: 1em;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  background: #3b82f6;
+  color: #ffffff;
+  padding: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.08);
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+header nav ul {
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+header nav img {
+  height: 48px;
+}
+
+.logo__img {
+  border-radius: 40px;
+  box-shadow: 0 0px 3px 10px rgba(0, 0, 0, 0.08);
+  margin: 10px;
+}
+
+footer {
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+footer .socials {
+  margin-top: 1rem;
+}
+footer img {
+  margin: 0 0.5rem;
+  vertical-align: middle;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(244, 114, 182, 0.12);
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,16 @@
+@use '../abstracts/variables' as *;
+
+footer {
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+  .socials {
+    margin-top: 1rem;
+  }
+  img {
+    margin: 0 0.5rem;
+    vertical-align: middle;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(244,114,182,0.12);
+  }
+}

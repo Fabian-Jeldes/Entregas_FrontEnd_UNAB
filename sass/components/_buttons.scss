@@ -1,0 +1,19 @@
+@use '../abstracts/variables' as *;
+
+
+.btn {
+  padding: 0.75em 2em;
+  border-radius: $box-radius;
+  background: linear-gradient(90deg, $primary-color, $secondary-color);
+  color: #fff;
+  border: none;
+  box-shadow: $shadow;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  &:hover {
+    background: linear-gradient(90deg, $secondary-color, $primary-color);
+    transform: translateY(-3px) scale(1.05);
+  }
+}

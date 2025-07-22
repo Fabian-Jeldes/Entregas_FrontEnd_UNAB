@@ -1,0 +1,27 @@
+
+// Archivo principal SASS siguiendo la estructura 7-1
+
+// Abstracts
+@use 'abstracts/variables';
+@use 'abstracts/mixins';
+@use 'abstracts/functions';
+@use 'abstracts/colors';
+
+// Base
+@use 'base/reset';
+@use 'base/typography';
+
+// Components
+@use 'components/buttons';
+@use 'components/cards';
+@use 'components/navbar';
+@use 'components/socials';
+
+// Layout
+@use 'layout/header';
+@use 'layout/footer';
+
+// Pages
+@use 'pages/index';
+@use 'pages/aboutus';
+@use 'pages/catalogo';
