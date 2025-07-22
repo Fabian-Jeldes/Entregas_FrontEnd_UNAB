@@ -1,0 +1,33 @@
+@use '../abstracts/variables' as *;
+
+header {
+  display: flex;
+  background: $primary-color;
+  color: #ffffff;
+  padding: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(59,130,246,0.08);
+  justify-content: center;
+  align-items: center;
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    ul {
+      display: flex;
+      gap: 2rem;
+      color: white;
+    }
+    img {
+      height: 48px;
+    }
+  }
+
+  
+}
+
+.logo__img {
+  border-radius: 40px;
+  box-shadow: 0 0px 3px 10px rgba(0, 0, 0, 0.08);
+  margin: 10px;
+}
