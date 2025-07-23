@@ -1,0 +1,77 @@
+// Estilos personalizados para Smart-EV usando Bootstrap
+
+// Personalización del navbar
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  
+  img {
+    filter: brightness(0) invert(1); // Hace la imagen blanca para contrastar con el fondo
+  }
+}
+
+// Contenedor principal personalizado
+.main-container {
+  width: 80%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.card {
+  border: none;
+  @include custom-shadow(2);
+  @include smooth-transition();
+  
+  &:hover {
+    @include custom-shadow(3);
+    transform: translateY(-3px);
+  }
+  
+  .card-header {
+    background: linear-gradient(135deg, var(--primary), lighten($primary, 10%));
+    border: none;
+    font-weight: 600;
+  }
+}
+.img-fluid {
+  @include smooth-transition();
+  
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+.btn {
+  @include smooth-transition();
+  font-weight: 500;
+  
+  &:hover {
+    transform: translateY(-2px);
+    @include custom-shadow(2);
+  }
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+// Responsividad + Bootstrap
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+    
+    img {
+      height: 40px !important;
+    }
+  }
+  
+  .container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+}

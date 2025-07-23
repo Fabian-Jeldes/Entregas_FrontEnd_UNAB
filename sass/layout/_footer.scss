@@ -1,0 +1,16 @@
+// Footer layout - Bootstrap ya maneja el layout básico
+// Solo personalizaciones específicas
+
+.custom-footer {
+  .social-icon {
+    margin: 0 0.5rem;
+    vertical-align: middle;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(40, 167, 69, 0.12);
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

@@ -1,0 +1,10 @@
+// Navbar personalizado - Bootstrap ya maneja la mayoría de estilos
+// Solo agregamos personalizaciones específicas
+
+.custom-nav {
+  .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: color 0.2s;
+  }
+}

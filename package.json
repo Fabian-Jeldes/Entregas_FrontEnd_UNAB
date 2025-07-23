@@ -1,0 +1,21 @@
+{
+  "name": "smart-ev-m3ae5-abp5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass sass/styles.scss css/styles.css",
+    "sass:watch": "sass --watch sass/styles.scss css/styles.css",
+    "build": "npm run sass"
+  },
+  "keywords": ["bootstrap", "sass", "frontend", "smart-ev"],
+  "author": "Fabian Jeldes",
+  "license": "ISC",
+  "description": "Smart-EV web platform using Bootstrap 4 and SASS",
+  "dependencies": {
+    "bootstrap": "^4.6.2"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}

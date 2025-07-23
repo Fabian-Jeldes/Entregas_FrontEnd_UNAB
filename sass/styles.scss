@@ -1,0 +1,29 @@
+// 1. BOOTSTRAP
+@import 'abstracts/bootstrap-variables';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// 2. Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+@import 'abstracts/colors';
+
+// 3. Base
+@import 'base/reset';
+@import 'base/typography';
+
+// 4. Components
+@import 'components/bootstrap-custom';
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/navbar';
+@import 'components/socials';
+
+// 5. Layout
+@import 'layout/header';
+@import 'layout/footer';
+
+// 6. Pages
+@import 'pages/index';
+@import 'pages/aboutus';
+@import 'pages/catalogo';

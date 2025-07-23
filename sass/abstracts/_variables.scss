@@ -1,0 +1,29 @@
+// Variables personalizadas para Smart-EV con Bootstrap
+// Estas variables complementan las de Bootstrap
+
+// Colores Smart-EV
+$smart-ev-green: #28a745;
+$smart-ev-blue: #007bff;
+$smart-ev-dark: #343a40;
+$smart-ev-light: #f8f9fa;
+
+// Fuentes
+$font-main: 'Montserrat', Arial, sans-serif;         
+$font-titles: 'Montserrat', sans-serif; 
+$font-size-base: 16px;
+$font-size-lg: 1.125rem; // 18px
+$font-size-xl: 1.5rem; // 24px  
+$line-height-base: 1.5;
+
+// Espaciado
+$px: 1rem; // tamaño base de 1rem
+$box-radius: 12px;
+$shadow: 0 4px 12px rgba(0, 123, 255, 0.08);
+
+// Contenedor principal
+$main-container-width: 80%;
+$main-container-max-width: 1140px;
+
+// Cards
+$card-padding: 20px;
+$card-margin: 20px;

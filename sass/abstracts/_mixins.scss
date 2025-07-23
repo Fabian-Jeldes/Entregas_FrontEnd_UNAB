@@ -1,0 +1,72 @@
+// Mixins para Bootstrap y personalización Smart-EV
+
+// Mixins existentes mejorados
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin transition($property) {
+  transition: $property 0.3s ease;
+}
+
+@mixin box-shadow($shadow) {
+  box-shadow: $shadow;
+}
+
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == 'mobile' {
+    @media (max-width: 600px) {
+      @content;
+    }
+  } @else if $breakpoint == 'tablet' {
+    @media (max-width: 900px) {
+      @content;
+    }
+  } @else if $breakpoint == 'desktop' {
+    @media (min-width: 901px) {
+      @content;
+    }
+  }
+}
+
+// Nuevos mixins para Bootstrap
+@mixin smooth-transition($property: all, $duration: 0.3s, $timing: ease) {
+  transition: $property $duration $timing;
+}
+
+@mixin custom-shadow($level: 1) {
+  @if $level == 1 {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  } @else if $level == 2 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  } @else if $level == 3 {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@mixin custom-button($bg-color, $text-color: white, $hover-bg: darken($bg-color, 10%)) {
+  background-color: $bg-color;
+  color: $text-color;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  @include smooth-transition();
+  
+  &:hover {
+    background-color: $hover-bg;
+    transform: translateY(-2px);
+    @include custom-shadow(2);
+  }
+}
+
+@mixin social-icon-hover {
+  @include smooth-transition();
+  
+  &:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
