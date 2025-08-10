@@ -1,0 +1,39 @@
+   <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Solución Actividad Lógica</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <main>
+        <h1>Solución a Problemas Lógicos</h1>
+        
+        <section class="card">
+            <h2>Problema 1: Probabilidad de Ganar</h2>
+            <input type="number" width="200px" id="inputganador" min="1" max="100" placeholder="Ingresa un número (1-100)">
+            <button onclick="numeroGanador()">Verificar</button>
+            <p id="outputganador"></p>
+        </section>
+
+        <section class="card">
+            <h2>Problema 2: ¿Año Bisiesto?</h2>
+            <input type="number" id="inputbisiesto" placeholder="Ingresa un año">
+            <button onclick="Aniobisisesto()">Verificar</button>
+            <p id="outputbisiesto"></p>
+        </section>
+
+        <section class="card">
+            <h2>Problema 3: Set de Tenis</h2>
+            <input type="number" id="inputTenisA" placeholder="Juegos ganados por A">
+            <input type="number" id="inputTenisB" placeholder="Juegos ganados por B">
+            <button onclick="resultadoTenis()">Determinar Resultado</button>
+            <p id="outputTenis"></p>
+        </section>
+    </main>
+        
+    <footer>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
