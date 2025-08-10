@@ -1,37 +1,45 @@
+
 # M4AE2 - ABP3
 
-Este proyecto forma parte del Módulo 4 del curso _Front End Trainee_. Aquí encontrarás la solución al ABP3, aplicando los conocimientos adquiridos.
+Este proyecto corresponde al tercer Aprendizaje Basado en Problemas (ABP3) del Módulo 4 del curso _Front End Trainee_. Aquí se resuelven distintos ejercicios prácticos usando HTML, CSS y JavaScript.
 
-## Contenidos
+## Descripción
 
-- Desarrollo de componentes front-end
-- Uso de tecnologías modernas (HTML, CSS, JavaScript)
-- Aplicación de buenas prácticas de desarrollo
+El objetivo es aplicar lógica de programación y manipulación del DOM para resolver problemas típicos de front-end. El proyecto incluye:
 
-## Instalación
+- Interfaz web interactiva para ingresar datos y ver resultados.
+- Ejercicios resueltos con JavaScript puro.
+- Estructura clara y fácil de entender.
+
+## Estructura del proyecto
+
+- `index.html`: Página principal con la interfaz de usuario.
+- `assets/js/main.js`: Lógica de los ejercicios en JavaScript.
+- `css/styles.css`: Estilos para la presentación visual.
+
+## Ejercicios incluidos
+
+1. **Juego de azar:** Determina si un número tiene opciones de ganar según reglas específicas.
+2. **Año bisiesto:** Verifica si un año es bisiesto según el calendario gregoriano.
+3. **Resultado de set de tenis:** Evalúa el resultado de un set de tenis según los juegos ganados por cada jugador.
+
+## Cómo usar
 
 1. Clona el repositorio:
     ```bash
     git clone <url-del-repositorio>
     ```
-2. Accede al directorio:
+2. Accede al directorio del proyecto:
     ```bash
     cd M4AE2-ABP3
     ```
-3. Instala las dependencias (si aplica):
-    ```bash
-    npm install
-    ```
+3. Abre el archivo `index.html` en tu navegador web preferido.
 
-## Uso
-
-Ejecuta el proyecto localmente:
-```bash
-npm start
-```
-o abre el archivo `index.html` en tu navegador.
+No se requieren dependencias ni instalación adicional.
 
 ## Autor
 
-Fabián Jeldes
-M4AE2-ABP3
+**Fabián Jeldes**
+
+---
+Proyecto realizado para el curso Front End Trainee - Módulo 4
