@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M4AE3-ABP4</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ejercicios Interactivos</h1>
+        <div class="card">
+            <h2>Ejercicio 1: Crear arreglo doble</h2>
+            <label for="inputN">Ingrese el largo del arreglo:</label>
+            <input type="number" id="inputN" min="1" max="100" value="5">
+            <button onclick="arrayNUI()">Crear</button>
+            <div id="arrayN" class="result"></div>
+        </div>
+        <div class="card">
+            <h2>Ejercicio 2: Obtener el mayor número de un arreglo</h2>
+            <button onclick="obtenerMayorNumeroUI()">Obtener mayor</button>
+            <div id="mayorNumeroResult"></div>
+        </div>
+        <div class="card">
+            <h2>Ejercicio 3: Obtener un día de la semana</h2>
+            <label for="inputDia">Ingrese el número del día (1-7):</label>
+            <input type="number" id="inputDia" min="1" max="7">
+            <button onclick="obtenerDiaSemanaUI()">Obtener día</button>
+            <div id="diaSemanaResult" class="result"></div>
+        </div>
+        <div class="card">
+            <h2>Ejercicio 4: Buscar un elemento en un arreglo</h2>
+            <label for="inputBuscar">Número a buscar:</label>
+            <input type="number" id="inputBuscar" min="1" max="100">
+            <button onclick="buscarElementArray()">Buscar</button>
+            <div id="buscarResult" class="result"></div>
+        </div>
+        <div class="card">
+            <h2>Ejercicio 5: Ordenar un arreglo de números</h2>
+            <button onclick="ordenarArreglo()">Ordenar y mostrar</button>
+            <div id="ordenarResult" class="result"></div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
