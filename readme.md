@@ -53,30 +53,6 @@ M4AE5-ABP6/
 - **Botones de acción**: Reservar, Cancelar, Mostrar Disponibles
 - **Mensajes dinámicos**: Feedback inmediato al usuario
 
-## 🚀 Cómo Usar la Aplicación
-
-### Instalación
-1. Clona o descarga el repositorio
-2. Abre el archivo `index.html` en tu navegador web
-
-### Uso Básico
-1. **Seleccionar asiento**: 
-   - Haz click directamente en un asiento del grid, O
-   - Escribe el número en el campo de entrada (1-20)
-
-2. **Reservar asiento**:
-   - Selecciona un asiento disponible (verde)
-   - Haz click en "Reservar Asiento"
-   - El asiento cambiará a gris (reservado)
-
-3. **Cancelar reserva**:
-   - Selecciona un asiento reservado (gris)
-   - Haz click en "Cancelar Reserva"
-   - El asiento volverá a verde (disponible)
-
-4. **Ver asientos disponibles**:
-   - Haz click en "Mostrar Asientos Disponibles"
-   - Revisa la consola del navegador para ver la lista completa
 
 ## 💻 Código Principal
 
@@ -101,34 +77,6 @@ let asientosReservados = [];
 - `mostrarAsientos()`: Actualiza la visualización del grid
 - `mostrarMensaje(texto, tipo)`: Muestra mensajes al usuario
 
-## 🎨 Características de Diseño
-
-### Colores del Sistema
-- **Verde (#27ae60)**: Asientos disponibles
-- **Gris (#95a5a6)**: Asientos reservados
-- **Azul (#3498db)**: Botón principal (Reservar)
-- **Rojo (#e74c3c)**: Botón de cancelar
-- **Naranja (#f39c12)**: Botón de información
-
-### Responsive Design
-- Grid adaptable según el tamaño de pantalla
-- Botones y controles optimizados para dispositivos móviles
-- Interfaz escalable para diferentes resoluciones
-
-## 🔧 Aspectos Técnicos
-
-### Conceptos de JavaScript Utilizados
-- **Variables y Arrays**: Gestión de datos simples
-- **Funciones**: Modularización del código
-- **Manipulación DOM**: Interacción con elementos HTML
-- **Event Handlers**: Gestión de eventos de usuario
-- **Bucles**: Generación dinámica de elementos
-
-### Validaciones Implementadas
-- Verificación de números de asiento válidos (1-20)
-- Comprobación de estado de asientos antes de reservar/cancelar
-- Mensajes informativos para guiar al usuario
-
 ## 📚 Propósito Educativo
 
 Este proyecto está diseñado como ejercicio de aprendizaje para:
@@ -147,7 +95,3 @@ Este proyecto forma parte del curso de Frontend en UNAB. Las mejoras y sugerenci
 **Autor**: Fabián Jeldes  
 **Curso**: Frontend Trainee - UNAB  
 **Módulo**: 4 - AE5 - ABP6  
-
----
-
-*Desarrollado como parte del programa de formación en desarrollo Frontend de la Universidad Nacional Andrés Bello (UNAB)*
