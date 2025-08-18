@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinefili: reserva de tickets</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Cinefili: reserva de tickets</h1>
+    </header>
+
+    <main>
+        <section class="cinema-info">
+            <h2>Cine: <span id="nombreCine"></span></h2>
+        </section>
+
+        <section class="room-selection">
+            <h3>Seleccionar Sala:</h3>
+            <select id="selectSala"></select>
+        </section>
+
+        <section class="seat-display">
+            <h3>Asientos de la Sala <span id="salaActualNombre"></span>:</h3>
+            <div id="asientosContainer" class="seats-grid">
+                <!-- Los asientos se generarán aquí con JavaScript -->
+            </div>
+            <p class="legend">
+                <span class="seat available-legend"></span> Disponible
+                <span class="seat reserved-legend"></span> Reservado
+            </p>
+        </section>
+
+        <section class="controls">
+            <input type="number" id="inputAsiento" placeholder="Número de asiento (ej: 5)" min="1">
+            <button id="btnReservar">Reservar asiento</button>
+            <button id="btnCancelar">Cancelar reserva</button>
+            <button id="btnMostrarDisponibles">Mostrar asientos disponibles (Consola_F12)</button>
+        </section>
+
+        <section class="messages">
+            <p id="mensaje"></p>
+        </section>
+    </main>
+
+    <footer>   
+    </footer>
+
+    
+    <script src="./assets/JS/main.js"></script>
+</body>
+</html>
