@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+body:hover {
+    background-color: darkgray;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.9s ease;
+}
+
+#paciente-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mostrar-pacientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#mostrar-pacientes:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin: 10px 0;
+    text-align: center;
+}
