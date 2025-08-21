@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+#app {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  white-space: pre-line; 
+  border-left: 5px solid #3498db;
+}
+
+
+#app span.direccion {
+  color: #2980b9;
+  font-weight: 600;
+}
+
+#app span.paquetes {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+#app {
+    &:hover {
+        box-shadow: 0px 8px 12px rgba(0,0,0,0.2);
+    }
+}
