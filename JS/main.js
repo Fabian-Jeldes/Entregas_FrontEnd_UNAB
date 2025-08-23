@@ -47,43 +47,32 @@ saludar(ofrecerCafe);
 
 // Problema 2: 
 
-function operaciones(a, b, minora, potencias) {
-    let diferencia = a - b;
-    let elevado = Math.pow(a, b);
+// Versión corregida del Problema 2:
+// Unificamos en una sola función 'operaciones' que calcula diferencia y elevado
+// y pasa SIEMPRE (a, b, resultado) a cada callback para evitar variables undefined.
 
+function operaciones(a, b, minora, potencias) {
+    const diferencia = a - b;
+    const elevado = Math.pow(a, b); 
     minora(a, b, diferencia);
     potencias(a, b, elevado);
 }
 
-operaciones(15, 3,
-    function(a, b, diferencia) {
-        console.log("La diferencia entre " + a + " y " + b + " es: " + diferencia);
+// Llamada de ejemplo (puedes cambiar 5 y 17 por otros números y se actualizará el texto):
+operaciones(5, 17,
+    function (a, b, diferencia) {
+        console.log(`La diferencia entre ${a} y ${b} es: ${diferencia}`);
     },
-    function(a, b, elevado) {
-        console.log("Elevando " + a + " a potencia " + b + " se obtiene: " + elevado);
+    function (a, b, elevado) {
+        console.log(`Elevando ${a} a potencia ${b} se obtiene: ${elevado}`);
     }
 );
 
-
-
-
-
-//Problema 2.B
-
-function operaciones(a,b,minora,potencias){
-var diferencia=a-b;
-var elevado=Math.pow(a,b);
-minora(diferencia);//invocamos la 1ª función anónima
-potencias(elevado);//invocamos la 2ª función anónima
-}
-operaciones(5,3,
-function(diferencia){
-console.log("La diferencia entre " + a + " y " + b + " es: " + diferencia);
-},
-function(elevado){
-console.log("Elevando " + a + " a potencia " + b + " se obtiene: " + elevado);
-}
-);
+// Nota sobre el error original:
+// En la versión "Problema 2.B" las funciones anónimas usaban 'a' y 'b' sin recibirlas
+// como parámetros (solo recibían 'diferencia' o 'elevado'), por eso 'a' y 'b' no estaban
+// definidas en el scope y daban ReferenceError / undefined. La corrección es pasar a y b
+// a los callbacks, o bien capturarlas por cierre (closure) creando variables fuera.
 
 // Basándose en el código anterior, modificarlo para que la primera frase que
 // se muestre en pantalla sea "La diferencia entre 5 y 3 es: 2", y la segunda
