@@ -1,30 +1,37 @@
-# M5AE4 - ABP3: Tarea de POO (Bootcamp Front-End)
+# M5AE4 - ABP3: Callbacks en JavaScript (Bootcamp Front-End)
 
-Este repositorio contiene la entrega para la práctica del módulo 5 (Programación Orientada a Objetos) del bootcamp de Front-End.
+Este repositorio contiene la práctica centrada en el uso de funciones callback
 
-## Resumen del ejercicio
+## Objetivo
 
-Implementar una pequeña aplicación en JavaScript que demuestre conocimientos de Programación Orientada a Objetos (POO). El código fuente principal está en `JS/main.js`.
+Comprender cómo funcionan las funciones callback en JavaScript mediante dos ejercicios:
 
-Objetivos principales:
-- Aplicar clases/constructores y objetos en JavaScript.
-- Manejar estados y métodos propios de las entidades modeladas.
-- Separar la lógica en archivos conforme a buenas prácticas.
+1. Problema 1: `saludar(callback)` muestra un saludo y luego ejecuta la función recibida (en este caso `ofrecerCafe`).
+2. Problema 2: `operaciones(a, b, minora, potencias)` calcula la diferencia (a - b) y la potencia (a^b) y entrega ambos resultados a dos callbacks que los imprimen.
 
-## Estructura del proyecto
+## Contenido del archivo `JS/main.js`
 
-Raíz:
+- Definición de la función `saludar` y el callback `ofrecerCafe`.
+- Implementación corregida de `operaciones` que:
+	- Calcula `diferencia = a - b`.
+	- Calcula `elevado = a ** b` (se usa `Math.pow(a,b)` en el código).
+	- Invoca `minora(a, b, diferencia)`.
+	- Invoca `potencias(a, b, elevado)`.
+- Ejemplo de uso con `operaciones(5, 3, ...)` que imprime:
+	- `La diferencia entre 5 y 3 es: 2`
+	- `Elevando 5 a potencia 3 se obtiene: 125`
 
-- `readme.md` — este archivo.
-- `JS/main.js` — código fuente principal de la práctica.
+## Error original corregido
 
+En una versión previa ("Problema 2.B") los callbacks recibían solo `diferencia` o `elevado`, pero dentro intentaban usar `a` y `b` (no definidas en ese ámbito), produciendo `ReferenceError` o valores `undefined`. Solución: pasar también `a` y `b` como parámetros a los callbacks o capturarlas mediante un closure. Se optó por la primera opción para mayor claridad.
 
-## Criterios de aceptación / Qué revisar
+## Posibles extensiones
 
-1. Código organizado y legible en `JS/main.js` (clases, métodos claros).
-2. Uso correcto de POO: clases o funciones constructoras con prototipos o ES6 `class`.
-3. Comportamiento verificable: las instancias deben exponer métodos que cambien estado y retornar valores esperados.
+- Cambiar callbacks a funciones flecha.
+- Añadir validaciones: asegurar que `a` y `b` son números.
+- Añadir una versión con promesas o async/await (envolviendo los cálculos).
+- Crear tests unitarios (Jest) para verificar las salidas esperadas.
 
 ## Autor
 
-Fabián Jeldes 
+Fabián Jeldes
