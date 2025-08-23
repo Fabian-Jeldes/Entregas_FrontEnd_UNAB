@@ -1,0 +1,80 @@
+/* Estilos básicos para la demo de asincronía */
+:root{
+    --bg: #f5f7fb;
+    --card: #ffffff;
+    --accent: #3b82f6; /* azul */
+    --muted: #6b7280;
+}
+
+*{box-sizing:border-box}
+html,body{
+    height:100%;
+    margin:0;
+    font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial
+}
+body{
+    background:var(--bg);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:32px
+}
+
+.container{
+    width:100%;
+    max-width:640px
+}
+
+h1{
+    margin:0 0 16px;
+    font-size:1.6rem;
+    color:#111827;
+    text-align:center
+}
+
+.card{
+    background:
+    var(--card);
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 6px 18px rgba(16,24,40,0.06);
+    color:#111827;
+    margin-bottom:16px;
+    text-align:center
+}
+
+.controls{
+    display:flex;
+    gap:10px;
+    justify-content:center
+}
+
+button{
+    background:var(--accent);
+    color:#fff;
+    border:0;
+    padding:10px 14px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:600;
+    transition:transform .12s ease, box-shadow .12s ease
+}
+button:hover{
+    transform:translateY(-2px);
+    box-shadow:0 6px 18px rgba(59,130,246,0.18)
+}
+button:active{
+    transform:translateY(0)}
+
+/* estado para botones secundarios */
+button.secondary{
+    background:#e5e7eb;
+    color:#111827;
+    font-weight:600
+}
+
+/* adaptativo */
+@media (max-width:480px){
+    .controls{flex-direction:column}
+    button{width:100%}
+}
