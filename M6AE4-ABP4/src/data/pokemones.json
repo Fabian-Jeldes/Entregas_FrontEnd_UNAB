@@ -1,0 +1,31 @@
+[
+  {
+    "pokemones": [
+      { "id": "1", "nombre": "pikachu" },
+      { "id": "2", "nombre": "kakuna" },
+      { "id": "3", "nombre": "beedrill" },
+      { "id": "4", "nombre": "metapod" },
+      { "id": "5", "nombre": "rattata" },
+      { "id": "6", "nombre": "bulbasaur" },
+      { "id": "7", "nombre": "ivysaur" },
+      { "id": "8", "nombre": "venusaur" },
+      { "id": "9", "nombre": "charmander" },
+      { "id": "10", "nombre": "charmeleon" },
+      { "id": "11", "nombre": "charizard" },
+      { "id": "12", "nombre": "squirtle" },
+      { "id": "13", "nombre": "wartortle" },
+      { "id": "14", "nombre": "blastoise" },
+      { "id": "15", "nombre": "caterpie" },
+      { "id": "16", "nombre": "butterfree" },
+      { "id": "17", "nombre": "pidgey" },
+      { "id": "18", "nombre": "pidgeotto" },
+      { "id": "19", "nombre": "pidgeot" },
+      { "id": "20", "nombre": "spearow" },
+      { "id": "21", "nombre": "fearow" },
+      { "id": "22", "nombre": "ekans" },
+      { "id": "23", "nombre": "arbok" },
+      { "id": "24", "nombre": "sandshrew" },
+      { "id": "25", "nombre": "sandslash" }
+    ]
+  }
+]
