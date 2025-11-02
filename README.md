@@ -140,12 +140,8 @@ npm run dev -- --port 3000
 
 ---
 
-##  Contacto
 
-**Desarrollador:** Fabián Jeldes  
+**Fabián Jeldes  
 **Repositorio:** [Entregas_FrontEnd_UNAB](https://github.com/Fabian-Jeldes/Entregas_FrontEnd_UNAB)  
 **Branch:** M7AE3-ABP3
-
----
-
 Proyecto académico - Front-End UNAB 2025
