@@ -28,10 +28,7 @@ Qué contiene
 - `src/App.vue` — página principal que muestra el carrusel de productos.
 - `tests/header.spec.js` — pruebas que validan las props del Header.
 
-Notas rápidas
-- Los precios se muestran en CLP (miles) usando formato local.
-- Las imágenes usan seeds de picsum.photos para que sean reproducibles y coincidentes con cada producto.
-- Si quieres pruebas que monten componentes Vue (DOM), puedo añadir `@vue/test-utils` y configurar Jest para SFCs.
-
----
-Documento breve con lo esencial para correr y entender la demo.
+**Fabián Jeldes  
+**Repositorio:** [Entregas_FrontEnd_UNAB](https://github.com/Fabian-Jeldes/Entregas_FrontEnd_UNAB)  
+**Branch:** M7AE4-ABP4
+Proyecto académico - Front-End UNAB 2025
