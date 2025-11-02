@@ -96,8 +96,5 @@ npm run preview  # Preview build
 
 
 Bootcamp UNAB FrontEnd
+M7AE2-ABP2
 **Fabián Jeldes**
-
----
-
-Hecho con ❤️ y Vue 3
