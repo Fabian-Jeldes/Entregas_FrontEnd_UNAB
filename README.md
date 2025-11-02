@@ -93,14 +93,10 @@ npm run preview  # Preview build
 
 **Pokémon no encontrado:** Usa nombres en inglés y minúsculas
 
-## 👨‍💻 Autor
 
+
+Bootcamp UNAB FrontEnd
 **Fabián Jeldes**
-- GitHub: [@Fabian-Jeldes](https://github.com/Fabian-Jeldes)
-
-## � Licencia
-
-Proyecto educativo - Módulo M7 ABPAE2
 
 ---
 
