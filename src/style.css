@@ -29,6 +29,16 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
+  background: 
+    linear-gradient(to right, 
+      #0d1117 0%,
+      #12161d 3%,
+      #171c26 10%, 
+      #171c26 90%, 
+      #12161d 97%,
+      #0d1117 100%
+    );
+  background-color: #171c26;
 }
 
 * {

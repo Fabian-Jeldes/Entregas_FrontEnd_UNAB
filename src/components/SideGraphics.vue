@@ -44,7 +44,7 @@ export default {
 
 <style scoped>
 .side-graphics {
-  position: fixed;
+  position: fixed !important;
   right: 50px;
   top: 50%;
   transform: translateY(-50%);
@@ -52,7 +52,8 @@ export default {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  z-index: 100;
+  z-index: 9999;
+  pointer-events: auto;
 }
 
 .dot {
@@ -64,6 +65,7 @@ export default {
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
+  pointer-events: auto;
 }
 
 .dot:hover {

@@ -80,6 +80,36 @@ export default {
   font-family: Arial, sans-serif;
   min-height: 100vh;
   overflow-x: hidden; /* Evitar scroll horizontal */
+  position: relative;
+}
+
+/* Efecto de degradado en los bordes laterales para suavizar la transición */
+#portfolio-app::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    linear-gradient(to right, 
+      rgba(23, 28, 38, 0.95) 0%,
+      rgba(25, 30, 42, 0.7) 5%,
+      rgba(28, 33, 45, 0.4) 10%,
+      transparent 20%,
+      transparent 80%,
+      rgba(28, 33, 45, 0.4) 90%,
+      rgba(25, 30, 42, 0.7) 95%,
+      rgba(23, 28, 38, 0.95) 100%
+    );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Asegurar que el contenido esté por encima del degradado - excepto elementos fixed */
+#portfolio-app > *:not(.side-graphics) {
+  position: relative;
+  z-index: 10;
 }
 
 /* Estilos responsive globales */
