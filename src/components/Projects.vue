@@ -58,30 +58,21 @@ export default {
         },
         {
           id: 2,
-          name: 'Weather App',
-          description: 'Aplicación meteorológica que consume API de OpenWeather para mostrar pronóstico detallado por ciudad.',
-          technologies: ['JavaScript', 'REST API', 'Async/Await', 'CSS3'],
-          githubUrl: 'https://github.com/tu-usuario/weather-app',
-          liveUrl: 'https://tu-weather-demo.netlify.app',
-          imageUrl: null
+          name: '🌿 VerdeModa',
+          description: 'Proyecto web que promueve la moda sostenible, combinando estilo y conciencia ecológica. Sitio responsive con catálogo interactivo, recursos educativos y formulario de contacto.',
+          technologies: ['HTML5', 'CSS3', 'BEM', 'Responsive Design'],
+          githubUrl: 'https://github.com/Fabian-Jeldes/Entregas_FrontEnd_UNAB/tree/M3AE1-ABP1',
+          liveUrl: null,
+          imageUrl: 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=500&q=80'
         },
         {
           id: 3,
-          name: 'Task Manager',
-          description: 'Gestor de tareas con funcionalidad CRUD, filtros por categoría y persistencia de datos local.',
-          technologies: ['Vue.js', 'Vuex', 'LocalStorage', 'Sass'],
-          githubUrl: 'https://github.com/tu-usuario/task-manager',
+          name: '🎬 Sistema de Reservas de Cine',
+          description: 'Aplicación web para la gestión de reservas de asientos en un cine. Grid interactivo de 20 asientos con sistema de reserva/cancelación y retroalimentación visual en tiempo real.',
+          technologies: ['HTML5', 'CSS3', 'JavaScript', 'DOM Manipulation'],
+          githubUrl: 'https://github.com/Fabian-Jeldes/Entregas_FrontEnd_UNAB/tree/M4AE5-ABP6',
           liveUrl: null,
-          imageUrl: null
-        },
-        {
-          id: 4,
-          name: 'Portfolio Template',
-          description: 'Template responsive para portfolios de desarrolladores con animaciones y diseño modular.',
-          technologies: ['HTML5', 'CSS3', 'JavaScript', 'AOS Library'],
-          githubUrl: 'https://github.com/tu-usuario/portfolio-template',
-          liveUrl: 'https://tu-portfolio-template.netlify.app',
-          imageUrl: null
+          imageUrl: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=500&q=80'
         }
       ]
     };
