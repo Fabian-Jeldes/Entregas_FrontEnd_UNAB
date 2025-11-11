@@ -289,6 +289,11 @@ export default {
 
   .project-info {
     padding: 20px;
+    text-align: center;
+  }
+
+  .project-tech {
+    justify-content: center;
   }
 
   .project-name {
@@ -329,6 +334,11 @@ export default {
 
   .project-info {
     padding: 18px;
+    text-align: center;
+  }
+
+  .project-tech {
+    justify-content: center;
   }
 
   .project-name {

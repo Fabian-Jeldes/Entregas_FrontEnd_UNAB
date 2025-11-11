@@ -208,6 +208,12 @@ export default {
 
   .skill-card {
     padding: 25px;
+    text-align: center;
+  }
+
+  .icon-placeholder {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .skill-card h4 {
@@ -235,12 +241,15 @@ export default {
 
   .skill-card {
     padding: 20px;
+    text-align: center;
   }
 
   .icon-placeholder {
     width: 40px;
     height: 40px;
     margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .skill-card h4 {
