@@ -6,7 +6,7 @@
     
     <div class="projects-grid">
       <div v-for="project in projects" :key="project.id" class="project-card">
-        <div class="project-image">
+        <div class="project-image" :style="{ backgroundImage: project.imageUrl ? `url(${project.imageUrl})` : 'none' }">
           <div class="project-overlay">
             <a :href="project.githubUrl" target="_blank" rel="noopener noreferrer" class="view-code-btn">
               <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -49,11 +49,12 @@ export default {
       projects: [
         {
           id: 1,
-          name: 'E-Commerce Dashboard',
-          description: 'Dashboard interactivo para gestión de ventas con gráficos en tiempo real y análisis de métricas clave.',
-          technologies: ['Vue.js', 'Chart.js', 'CSS Grid', 'Local Storage'],
-          githubUrl: 'https://github.com/tu-usuario/ecommerce-dashboard',
-          liveUrl: 'https://tu-demo.netlify.app'
+          name: '🔥 Pokeguía - Vue 3 + Firebase',
+          description: 'Aplicación web para buscar información de Pokémon con autenticación Firebase. Incluye sistema completo de login/registro, búsqueda de Pokémon, imágenes de alta calidad, lista de movimientos y habilidades con rutas protegidas.',
+          technologies: ['Vue 3', 'Firebase', 'Vue Router', 'Axios', 'PokéAPI', 'Vite'],
+          githubUrl: 'https://github.com/Fabian-Jeldes/Entregas_FrontEnd_UNAB/tree/M7AE2-ABP2',
+          liveUrl: null,
+          imageUrl: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png'
         },
         {
           id: 2,
@@ -61,7 +62,8 @@ export default {
           description: 'Aplicación meteorológica que consume API de OpenWeather para mostrar pronóstico detallado por ciudad.',
           technologies: ['JavaScript', 'REST API', 'Async/Await', 'CSS3'],
           githubUrl: 'https://github.com/tu-usuario/weather-app',
-          liveUrl: 'https://tu-weather-demo.netlify.app'
+          liveUrl: 'https://tu-weather-demo.netlify.app',
+          imageUrl: null
         },
         {
           id: 3,
@@ -69,7 +71,8 @@ export default {
           description: 'Gestor de tareas con funcionalidad CRUD, filtros por categoría y persistencia de datos local.',
           technologies: ['Vue.js', 'Vuex', 'LocalStorage', 'Sass'],
           githubUrl: 'https://github.com/tu-usuario/task-manager',
-          liveUrl: null
+          liveUrl: null,
+          imageUrl: null
         },
         {
           id: 4,
@@ -77,7 +80,8 @@ export default {
           description: 'Template responsive para portfolios de desarrolladores con animaciones y diseño modular.',
           technologies: ['HTML5', 'CSS3', 'JavaScript', 'AOS Library'],
           githubUrl: 'https://github.com/tu-usuario/portfolio-template',
-          liveUrl: 'https://tu-portfolio-template.netlify.app'
+          liveUrl: 'https://tu-portfolio-template.netlify.app',
+          imageUrl: null
         }
       ]
     };
@@ -139,6 +143,9 @@ export default {
 .project-image {
   height: 200px;
   background: linear-gradient(135deg, #252d3d 0%, #1e2430 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   display: flex;
   align-items: center;
