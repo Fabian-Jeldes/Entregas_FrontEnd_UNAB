@@ -76,4 +76,29 @@ export default {
   border-color: #e54c60;
   box-shadow: 0 0 15px rgba(229, 76, 96, 0.6);
 }
+
+/* Media Queries para Responsive */
+@media (max-width: 1024px) {
+  .side-graphics {
+    right: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .side-graphics {
+    right: 15px;
+    gap: 15px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .side-graphics {
+    display: none; /* Ocultar en móviles muy pequeños para no interferir */
+  }
+}
 </style>

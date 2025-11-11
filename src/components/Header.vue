@@ -101,4 +101,57 @@ nav li {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(229, 76, 96, 0.4);
 }
+
+/* Media Queries para Responsive */
+@media (max-width: 768px) {
+  .main-header {
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .logo-text {
+    font-size: 18px;
+  }
+
+  .logo-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  nav ul {
+    gap: 10px;
+  }
+
+  .nav-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-header {
+    padding: 12px 15px;
+  }
+
+  .logo-text {
+    font-size: 16px;
+  }
+
+  .logo-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  nav ul {
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+}
 </style>

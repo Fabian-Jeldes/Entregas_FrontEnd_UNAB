@@ -247,4 +247,117 @@ export default {
   background-color: #d13a50;
   border-color: #d13a50;
 }
+
+/* Media Queries para Responsive */
+@media (max-width: 1024px) {
+  .projects-section {
+    padding: 60px 30px;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 50px 20px;
+  }
+
+  .title-container {
+    padding: 10px 25px;
+    margin-bottom: 35px;
+  }
+
+  .projects-title {
+    font-size: 28px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .project-card {
+    max-width: 100%;
+  }
+
+  .project-image {
+    height: 200px;
+  }
+
+  .project-info {
+    padding: 20px;
+  }
+
+  .project-name {
+    font-size: 20px;
+  }
+
+  .project-description {
+    font-size: 14px;
+  }
+
+  .view-code-btn {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+
+  .view-code-btn svg {
+    width: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-section {
+    padding: 40px 15px;
+  }
+
+  .title-container {
+    padding: 8px 20px;
+    margin-bottom: 25px;
+  }
+
+  .projects-title {
+    font-size: 24px;
+  }
+
+  .project-image {
+    height: 180px;
+  }
+
+  .project-info {
+    padding: 18px;
+  }
+
+  .project-name {
+    font-size: 18px;
+  }
+
+  .project-description {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .tech-tag {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+
+  .link-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .view-code-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .view-code-btn svg {
+    width: 16px;
+  }
+}
 </style>
+

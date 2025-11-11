@@ -129,4 +129,62 @@ export default {
   margin-top: 20px;
   font-weight: 600;
 }
+
+/* Media Queries para Responsive */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 50px 20px;
+  }
+
+  .contact-title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .submit-button {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 40px 15px;
+  }
+
+  .contact-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .contact-form textarea {
+    min-height: 120px;
+  }
+
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .arrow-icon {
+    font-size: 11px;
+  }
+}
 </style>

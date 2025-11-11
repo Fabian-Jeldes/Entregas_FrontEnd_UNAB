@@ -174,4 +174,81 @@ export default {
   height: 100%;
   display: block;
 }
+
+/* Media Queries para Responsive */
+@media (max-width: 1024px) {
+  .skill-set-section {
+    padding: 60px 30px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skill-set-section {
+    padding: 50px 20px;
+  }
+
+  .title-container {
+    padding: 10px 25px;
+    margin-bottom: 35px;
+  }
+
+  .skill-set-title {
+    font-size: 28px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .skill-card {
+    padding: 25px;
+  }
+
+  .skill-card h4 {
+    font-size: 18px;
+  }
+
+  .skill-card p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-set-section {
+    padding: 40px 15px;
+  }
+
+  .title-container {
+    padding: 8px 20px;
+    margin-bottom: 25px;
+  }
+
+  .skill-set-title {
+    font-size: 24px;
+  }
+
+  .skill-card {
+    padding: 20px;
+  }
+
+  .icon-placeholder {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 12px;
+  }
+
+  .skill-card h4 {
+    font-size: 16px;
+  }
+
+  .skill-card p {
+    font-size: 13px;
+  }
+}
 </style>

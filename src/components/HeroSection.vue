@@ -179,4 +179,95 @@ export default {
   font-size: 20px;
   font-weight: 600;
 }
+
+/* Media Queries para Responsive */
+@media (max-width: 1024px) {
+  .hero-section {
+    padding: 120px 30px 80px 30px;
+  }
+
+  .content h1 {
+    font-size: 48px;
+  }
+
+  .content .tagline {
+    font-size: 16px;
+  }
+
+  .photo-circle {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column-reverse;
+    padding: 100px 20px 60px 20px;
+    text-align: center;
+    min-height: auto;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+
+  .content h1 {
+    font-size: 36px;
+  }
+
+  .content .tagline {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .content .tagline br {
+    display: none;
+  }
+
+  .hero-actions {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .photo-circle {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 80px 15px 40px 15px;
+  }
+
+  .content h1 {
+    font-size: 28px;
+  }
+
+  .content .tagline {
+    font-size: 14px;
+  }
+
+  .btn-primary {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  .social-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .photo-circle {
+    width: 200px;
+    height: 200px;
+  }
+}
 </style>

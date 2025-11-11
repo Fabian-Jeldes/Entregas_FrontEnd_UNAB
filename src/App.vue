@@ -79,6 +79,20 @@ export default {
   color: #f0f0f0; /* Color de texto claro */
   font-family: Arial, sans-serif;
   min-height: 100vh;
+  overflow-x: hidden; /* Evitar scroll horizontal */
+}
+
+/* Estilos responsive globales */
+@media (max-width: 768px) {
+  #portfolio-app {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  #portfolio-app {
+    font-size: 13px;
+  }
 }
 /* Otros estilos globales como resets de margen y padding */
 </style>

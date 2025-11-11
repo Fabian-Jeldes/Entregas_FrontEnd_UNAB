@@ -9,7 +9,7 @@
 
   **Portfolio profesional interactivo desarrollado con Vue.js 3 y Vite**
 
-  [Demo en Vivo](#) | [Documentación](#tecnologías-utilizadas) | [Contacto](#contacto)
+  [🌐 Demo en Vivo](https://effulgent-croquembouche-d0f5d6.netlify.app/) | [Documentación](#tecnologías-utilizadas) | [Contacto](#contacto)
 
 </div>
 
@@ -26,6 +26,20 @@ El sitio presenta:
 - 📂 **Galería de proyectos** vinculada a repositorios de GitHub
 - 📧 **Formulario de contacto** funcional para conexiones profesionales
 - 🔄 **Animaciones y efectos hover** para una experiencia de usuario atractiva
+
+---
+
+## 🌐 Live Demo
+
+¡Explora el portfolio en vivo!
+
+**🔗 [https://effulgent-croquembouche-d0f5d6.netlify.app/](https://effulgent-croquembouche-d0f5d6.netlify.app/)**
+
+El sitio está desplegado en **Netlify** con las siguientes características:
+- ✅ Despliegue continuo desde GitHub
+- ✅ HTTPS habilitado
+- ✅ Optimización automática de assets
+- ✅ Rendimiento optimizado
 
 ---
 
