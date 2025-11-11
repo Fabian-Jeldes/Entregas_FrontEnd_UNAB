@@ -61,21 +61,10 @@ Este portfolio nace de la necesidad de **consolidar mi identidad profesional dig
 1. **Refleje mi evolución profesional**: Desde el análisis de datos hasta el desarrollo front-end y la gestión de proyectos
 2. **Demuestre habilidades técnicas**: Implementando un proyecto real con tecnologías modernas
 3. **Facilite conexiones profesionales**: Ofreciendo múltiples canales de contacto
-4. **Sirva como caso de estudio**: Documentando buenas prácticas de desarrollo web
-
-> *"Un portfolio no es solo un CV digital, es una declaración de mis capacidades y mi pasión por la tecnología."*
 
 ---
 
 ## 📦 Guía de Instalación
-
-### Prerrequisitos
-
-Asegúrate de tener instalado:
-- **Node.js** (versión 16.x o superior) - [Descargar aquí](https://nodejs.org/)
-- **npm** (incluido con Node.js) o **yarn**
-- **Git** - [Descargar aquí](https://git-scm.com/)
-
 ### Pasos de Instalación
 
 1. **Clonar el repositorio**
@@ -139,22 +128,6 @@ El portfolio está dividido en **4 secciones principales**:
    - Campos de email y mensaje
    - Validación del lado del cliente
 
-### Gráficos Laterales (SideGraphics)
-
-- **Puntos de navegación** fijos en el lado derecho
-- Hacen scroll suave a cada sección al hacer clic
-- Se actualizan según la sección visible
-- Efecto hover para indicar interactividad
-
-### Personalización
-
-Para personalizar el contenido:
-
-1. **Datos del CV**: Edita `src/CV.js`
-2. **Proyectos**: Modifica el array en `src/components/Projects.vue`
-3. **Colores**: Ajusta las variables CSS en `src/App.vue` y componentes
-4. **Foto de perfil**: Reemplaza `src/assets/FJ_CV_Profile.jpg`
-
 ---
 
 ## 📂 Estructura del Proyecto
@@ -210,19 +183,5 @@ PortfolioV1/
 ---
 
 ## 👨‍💻 Autor
-
 **Fabián Andrés Jeldes**
 
-- 💼 Analista Programador | Analista de Datos | Gestor de Proyectos
-- 🎓 INACAP Ñuñoa | Certificado Google Data Analytics
-- 🌐 [Portfolio](https://tu-dominio.com) | [LinkedIn](https://linkedin.com/in/tu-perfil) | [GitHub](https://github.com/tu-usuario)
-
----
-
-<div align="center">
-
-**⭐ Si te gustó este proyecto, considera darle una estrella en GitHub ⭐**
-
-Hecho con ❤️ y ☕ por Fabián Jeldes
-
-</div>
